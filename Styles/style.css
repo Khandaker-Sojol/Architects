@@ -195,7 +195,17 @@ header {
   padding: 40px 0;
 }
 
+/* Footer */
 
+footer {
+  margin:30px;
+  border-radius: 5px;
+  background: rgb(255, 244, 231);
+  padding: 30px;
+}
+footer p{
+    text-align: center;
+}
 /* Responsive Css */
 @media screen and (max-width: 576px) {
   .navbar {
