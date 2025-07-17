@@ -178,6 +178,24 @@ header {
   border-radius: 8px;
 }
 
+/* Sponsor section Css */
+.sponsor-text {
+  text-align: center;
+}
+.sponsor-text h1 {
+  color: rgb(19, 19, 19);
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.sponsor-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+
 /* Responsive Css */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -268,6 +286,17 @@ header {
   }
   .facts-container {
     flex-direction: column;
+  }
+
+  /* Sponsor section Css */
+  .sponsor-text {
+    text-align: center;
+  }
+  .sponsor-text h1 {
+    font-size: 2rem;
+  }
+  .sponsor-container {
+    flex-wrap: wrap;
   }
 
   /* Medium Device Css */
@@ -362,6 +391,16 @@ header {
     font-size: 2rem;
   }
   .facts-container {
+    flex-wrap: wrap;
+  }
+
+  .sponsor-text {
+    text-align: center;
+  }
+  .sponsor-text h1 {
+    font-size: 2rem;
+  }
+  .sponsor-container {
     flex-wrap: wrap;
   }
 }
